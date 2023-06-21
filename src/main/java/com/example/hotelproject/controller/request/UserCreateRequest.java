@@ -11,14 +11,17 @@ import lombok.ToString;
 @NoArgsConstructor
 public class UserCreateRequest {
     private String userName;
+    private String userId;
     private String phoneNumber;
     private int age;
 
     @Builder
     public UserCreateRequest(String userName,
-                             String phoneNumber,
-                             int age) {
+                String userId,
+                String phoneNumber,
+                int age) {
         this.userName = userName;
+        this.userId = userId;
         this.phoneNumber = phoneNumber;
         this.age = age;
     }
