@@ -1,8 +1,27 @@
 package com.example.hotelproject.repository;
-
 import com.example.hotelproject.controller.request.UserCreateRequest;
-import com.example.hotelproject.domain.User;
+import org.apache.ibatis.annotations.Select;
+import org.springframework.stereotype.Repository;
 
-public interface UserRepository {
-    int saveUser(UserCreateRequest user);
+import java.util.List;
+
+@Repository
+public class UserRepository {
+//
+//
+//    public int saveUser(UserCreateRequest user){
+//        return 0;
+//    }
+//
+//    @Select("SELECT  * from testTable tt ;")
+//    public List<Object> getUsers() {
+//        return
+//    }
+//
+//    public List<UserResponse> findUser() {
+//    }
+//
+//    public List<UserResponse> findAllUser() {
+//    }
+
 }

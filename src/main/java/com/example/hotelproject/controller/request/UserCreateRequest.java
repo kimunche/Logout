@@ -10,6 +10,7 @@ import lombok.ToString;
 @Getter
 @NoArgsConstructor
 public class UserCreateRequest {
+    private Long id;
     private String userName;
     private String userId;
     private String phoneNumber;
